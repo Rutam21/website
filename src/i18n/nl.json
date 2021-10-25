@@ -1,4 +1,8 @@
 {
+    "macros": {
+        "site_name": "todo.tld",
+        "base_url": "https://www.todo.tld"
+    },
     "hugo": {
         "categories": "Categorieën",
         "addresses": "adressen",
@@ -35,9 +39,9 @@
         "home-how-it-works-parameters": "Kies bedrijven waar u een aanvraag naar wilt sturen. Voer uw gegevens in, zodat de bedrijven u kunnen identificeren. Om het makkelijker voor u te maken, hebben wij de formulieren al voorbereid. En geen zorgen: alle gegevens blijven op uw computer en worden alleen daar verwerkt. Dit maakt het mogelijk dat uw gegevens nooit bij ons terecht komen.",
         "home-how-it-works-parameters-title": "Voer uw parameters in",
         "header-blog": "Publicaties",
-        "header-name": "gegevensaanvragen.org",
-        "logo-title": "gegevensaanvragen.org logo",
-        "logo": "img/logo-gegevensaanvragen.svg",
+        "header-name": "${site_name}",
+        "logo-title": "${site_name} logo",
+        "logo": "img/logo-datarequests.svg",
         "adb-more-details": "Meer informatie",
         "adb-explanation": "<p>Onze database met gegevensbeschermingsautoriteiten bevat de contactgegevens van de gegevensbeschermingsautoriteiten in de EU.</p><p>De gegevensbeschermingsautoriteiten zijn onafhankelijke instellingen, die ervoor zorgen dat de privacyregels worden opgevolgd. Als u vindt dat een bedrijf uw verzoeken niet op de juiste manier behandelt of als uw gegevens verwerkt worden op een manier die in strijd is met de privacywet, kun u bij de gegevensbeschermingsautoriteit altijd gratis een klacht indienen. Meer daarover kunt u lezen in ons <a href='supervisory-authorities'>artikel over de gegevensbeschermingsautoriteiten</a>.</p>",
         "adb-title": "Lijst met gegevensbeschermingsautoriteiten",
@@ -817,6 +821,8 @@
         "language": "Taal",
         "language-desc-en": "Engels (English)",
         "language-desc-fr": "Frans (Français)",
+        "language-desc-nl": "Nederlands",
+        "language-nl": "Nederlands",
         "language-pt": "Portugees"
     },
     "signature": {
