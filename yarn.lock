@@ -9252,10 +9252,10 @@ preact-i18n@^2.3.0-preactx:
   dependencies:
     dlv "^1.1.2"
 
-preact@^10.5.5:
-  version "10.5.5"
-  resolved "https://registry.yarnpkg.com/preact/-/preact-10.5.5.tgz#c6c172ca751df27483350b8ab622abc12956e997"
-  integrity sha512-5ONLNH1SXMzzbQoExZX4TELemNt+TEDb622xXFNfZngjjM9qtrzseJt+EfiUu4TZ6EJ95X5sE1ES4yqHFSIdhg==
+preact@^10.6.5:
+  version "10.6.6"
+  resolved "https://registry.yarnpkg.com/preact/-/preact-10.6.6.tgz#f1899bc8dab7c0788b858481532cb3b5d764a520"
+  integrity sha512-dgxpTFV2vs4vizwKohYKkk7g7rmp1wOOcfd4Tz3IB3Wi+ivZzsn/SpeKJhRENSE+n8sUfsAl4S3HiCVT923ABw==
 
 precinct@^6.3.1:
   version "6.3.1"
