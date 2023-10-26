@@ -3235,10 +3235,15 @@ crypto-browserify@^3.11.0:
     randombytes "^2.0.0"
     randomfill "^1.0.3"
 
-crypto-js@^3.1.9-1, crypto-js@^3.3.0:
+crypto-js@^3.1.9-1:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/crypto-js/-/crypto-js-3.3.0.tgz#846dd1cce2f68aacfa156c8578f926a609b7976b"
   integrity sha512-DIT51nX0dCfKltpRiXV+/TVZq+Qq2NgF4644+K7Ttnla7zEzqc+kjJyiB96BHNyUTBxyjzRcZYpUdZa+QAqi6Q==
+
+crypto-js@^4.0.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/crypto-js/-/crypto-js-4.2.0.tgz#4d931639ecdfd12ff80e8186dba6af2c2e856631"
+  integrity sha512-KALDyEYgpY+Rlob/iriUtjV6d5Eq+Y191A5g4UqLAi8CyGP9N1+FdVbkc1SxKc2r4YAYqG8JzO2KGL+AizD70Q==
 
 crypto-random-string@^1.0.0:
   version "1.0.0"
@@ -8427,12 +8432,12 @@ pdfkit@>=0.8.1, pdfkit@^0.11.0:
     linebreak "^1.0.2"
     png-js "^1.0.0"
 
-pdfkit@^0.12.1:
-  version "0.12.1"
-  resolved "https://registry.yarnpkg.com/pdfkit/-/pdfkit-0.12.1.tgz#0df246b46cffd3d8fb99b1ea33dc1854430a9199"
-  integrity sha512-ruNLx49hVW3ePJziKjHtWdTHN1VZHLCUCcbui/vx4lYwFLEM1d8W0L7ObYPbN8EifK7s281ZMugCLgSbk+KRhg==
+pdfkit@^0.12.0, pdfkit@^0.12.2:
+  version "0.12.3"
+  resolved "https://registry.yarnpkg.com/pdfkit/-/pdfkit-0.12.3.tgz#527da4a4bad9a6b456a6939037d63d5ff9306302"
+  integrity sha512-+qDLgm2yq6WOKcxTb43lDeo3EtMIDQs0CK1RNqhHC9iT6u0KOmgwAClkYh9xFw2ATbmUZzt4f7KMwDCOfPDluA==
   dependencies:
-    crypto-js "^3.3.0"
+    crypto-js "^4.0.0"
     fontkit "^1.8.1"
     linebreak "^1.0.2"
     png-js "^1.0.0"
@@ -8445,6 +8450,17 @@ pdfmake@^0.1.58:
     iconv-lite "^0.6.2"
     linebreak "^1.0.2"
     pdfkit "^0.11.0"
+    svg-to-pdfkit "^0.1.8"
+    xmldoc "^1.1.2"
+
+pdfmake@^0.1.71:
+  version "0.1.72"
+  resolved "https://registry.yarnpkg.com/pdfmake/-/pdfmake-0.1.72.tgz#b5ef0057e40e7a22b23a19aaf0be35ada902a3bf"
+  integrity sha512-xZrPS+Safjf1I8ZYtMoXX83E6C6Pd1zFwa168yNTeeJWHclqf1z9DoYajjlY2uviN7gGyxwVZeou39uSk1oh1g==
+  dependencies:
+    iconv-lite "^0.6.2"
+    linebreak "^1.0.2"
+    pdfkit "^0.12.0"
     svg-to-pdfkit "^0.1.8"
     xmldoc "^1.1.2"
 
