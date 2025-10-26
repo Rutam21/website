@@ -55,7 +55,7 @@
         "preact-i18n": "^2.3.0-preactx",
         "prop-types": "^15.7.2",
         "qrcode": "^1.4.4",
-        "react-joyride": "^1.11.4",
+        "react-joyride": "^2.0.4",
         "react-scrollspy": "^3.4.0",
         "typesense": "^0.3.0"
     },
